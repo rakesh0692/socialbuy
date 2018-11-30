@@ -1,0 +1,22 @@
+//
+// Custom and overridden mixins ( utility functions )
+
+
+/*
+	Font face
+	example:
+	@include font-face('Clarendon', 'clarendon-webfont');
+	@include font-face('Clarendon', 'clarendon-webfont', $w--bold, italic);
+*/
+
+@mixin font-face($name, $filename, $weight: normal, $style: normal) {
+    @font-face {
+        font-family: $name;
+        src: url('#{$font_path}/#{$filename}.woff') format('woff'),
+        url('#{$font_path}/#{$filename}.woff') format('woff');
+        font-style: $style;
+        font-weight: $weight;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}

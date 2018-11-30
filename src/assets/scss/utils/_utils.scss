@@ -1,0 +1,8 @@
+//
+// Utils file which consolidates all the files in the utils folder
+// If _functions.scss is written it should be ensured that it is included before the _variables.scss file
+// to avail the benefits of the variables in custom functions
+
+@import '~bootstrap/scss/functions';
+@import 'functions';
+@import 'mixins';
