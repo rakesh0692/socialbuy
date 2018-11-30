@@ -1,0 +1,6 @@
+footer {
+    bottom: 0.1rem;
+    border: 0.1rem solid red;
+    position: fixed;
+    width: 100%;
+}
