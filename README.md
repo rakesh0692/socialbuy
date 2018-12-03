@@ -1,13 +1,26 @@
 
 
-**AngularSpree is an open source Angular(7.x+) e-commerce application supported by Aviacommerce API**
+**SocialBuy is an open source Angular(7.x+) e-commerce application supported by Aviacommerce API**
 
-It is a plug and play frontend application for [AviaCommerce API](https://www.aviacommerce.org/docs/apis-getting-started.html) built using Angular6, Redux, Observables & ImmutableJs.
 
-**However, it is not limited to aviacommerce and can also be used with any e-commerce solution with an api interface. Such as spreecommerce, magento, opencart etc.**
+**However, it is not limited to socialbuy and can also be used with any e-commerce solution with an api interface. Such as spreecommerce, magento, opencart etc.**
 
-For enquiries send a mail at `hello@aviabird.com`
+For enquiries send a mail at `singh.rakesh.shekhawat@gmail.com`
 
-### Quick Links
-[Gitter](https://gitter.im/avia-commerce/Lobby) | [Contributing](https://github.com/aviabird/angularspree/blob/master/CONTRIBUTING.md) | [API Specs](https://www.aviacommerce.org/docs/apis-getting-started.html) | 
-|---|---|---|
+### Pre-requisites 
+
+Before you start working on this code base and to be able to run on local the following things are required to be installed:
+
+1. Node js 
+2. IDE  ( preferably webstorm or MS Visual Code)
+3. yarn install after cloned the code.
+
+
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Running unit tests
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
