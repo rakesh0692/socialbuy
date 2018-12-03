@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="253px" height="90px" viewBox="0 0 253 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV-Copy-2" transform="translate(-251.000000, -454.000000)">
+            <g id="Group-4" transform="translate(251.000000, 450.000000)">
+                <g id="Group">
+                    <g id="Group-2">
+                        <path d="M228.057463,4.0000013 L156.736143,4.0000013 C155.734605,3.99914056 154.782176,4.4262828 154.1218,5.17168368 L132.85937,29.2347474 C131.713543,30.5316675 131.713543,32.4683325 132.85937,33.7652526 L154.1218,57.8274556 C154.782176,58.5737172 155.734605,59.0008594 156.736143,58.9999987 L228.057463,58.9999987 C231.891515,58.9999987 235,55.9217771 235,52.1250528 L235,10.8749472 C235,7.07822286 231.891515,4.0000013 228.057463,4.0000013 Z" id="Fill-1" fill="#F5A623" transform="translate(183.500000, 31.500000) scale(-1, 1) translate(-183.500000, -31.500000) "></path>
+                        <text id="Social" font-family="DINAlternate-Bold, DIN Alternate" font-size="51" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="0" y="48">Social</tspan>
+                        </text>
+                        <text id="Buy" font-family="DINAlternate-Bold, DIN Alternate" font-size="45" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="138" y="46">Buy</tspan>
+                        </text>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="221" cy="34" r="4"></circle>
+                        <path d="M220.115319,34.8888879 C245.013487,24.0849204 255.067347,26.9412486 250.2769,43.4578727 C248.785458,48.600102 248.255362,51.0826403 246.113614,53.5766719 C242.95531,57.254467 236.451742,53.881534 226.602909,43.4578727" id="Path-3" stroke="#FFFFFF" stroke-width="2" fill-rule="nonzero"></path>
+                    </g>
+                    <text id="Soch-Mat-Kharid-Dal" font-family="CourierNewPS-BoldMT, Courier New" font-size="22" font-weight="bold" letter-spacing="-0.5" fill="#FFFFFF">
+                        <tspan x="0" y="88">Soch Mat Kharid Dal</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="93" width="242" height="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

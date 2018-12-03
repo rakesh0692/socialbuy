@@ -1,11 +1,13 @@
-<!-- <div class="container">
-      <div class="col-sm-8 col-sm-offset-2">
-          <!-- <alert></alert>
-          <router-outlet></router-outlet> -->
-          <!-- <app-login></app-login> -->
-<!--         
-      </div>
-  </div>  -->
-<app-header></app-header>
-<h1>Welcome to {{title}}</h1> 
-<app-footer></app-footer>
+<ngx-json-ld [json]="schema"></ngx-json-ld>
+<div class="selected-theme">
+  <section>
+    <ng-progress [color]="'red'" [spinner]="false"></ng-progress>
+
+    <app-header *ngIf="currentUrl" [layoutState]="layoutState$ | async"></app-header>
+
+    <main class="main-body">
+      <router-outlet></router-outlet>
+    </main>
+    <app-footer *ngIf="currentUrl"></app-footer>
+  </section>
+</div>

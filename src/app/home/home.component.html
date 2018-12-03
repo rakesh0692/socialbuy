@@ -1,12 +1,28 @@
-<!-- <div class="col-md-6 col-md-offset-3">
-  <h1>Hi {{currentUser.firstName}}!</h1>
-  <p>You're logged in with Angular 2/5!!</p>
-  <h3>All registered users:</h3>
-  <ul>
-      <li *ngFor="let user of users">
-          {{user.username}} ({{user.firstName}} {{user.lastName}})
-          - <a (click)="deleteUser(user.id)">Delete</a>
-      </li>
-  </ul>
-  <p><a [routerLink]="['/login']">Logout</a></p>
-</div> -->
+<div *ngIf="products$ | async ; let products">
+  <div class="col-12 p-0 p-sm-3 home" *ngIf="products.length !==0 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 sidebar d-sm-none d-xs-none d-none d-lg-block">
+          <!--<app-categories [taxonomiList]="taxonomies" (onSelected)="OnCategeorySelected($event)" (showAll)="showAll()" [isFilterOn]="isFilterOn$ | async"
+            [categoryLevel]="categoryLevel$ | async">
+          </app-categories>-->
+          <app-brand-filter [brandsList]="brands$ | async"></app-brand-filter> 
+        </div>
+        <div class="col-lg-9 col-12 col-sm-12" [ngClass]="[isMobile ? 'p-0' : '']">
+          <app-content [productsList]="products" class="col-12">
+          </app-content>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Need to change it  -->
+  <div *ngIf="products.length === 0">
+    <div class="col-9 col-sm-6 m-auto nproduct">
+      <img src="../../assets/custom/noproduct.png" />
+      <h2 class="my-5">No Products Found</h2>
+      <button type="button" class="btn themebtnprimary themebtnprimarysade  mb-3 col-12 col-sm-5 m-auto" [routerLink]="['/']">Continue
+        Shopping</button>
+      <div class="py-2"></div>
+    </div>
+  </div>
+</div>
